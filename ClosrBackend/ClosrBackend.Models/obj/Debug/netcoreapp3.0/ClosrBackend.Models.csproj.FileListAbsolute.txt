@@ -1,0 +1,8 @@
+C:\Users\JPLBU12\Documents\Hackathon\ClosrBackend\ClosrBackend\ClosrBackend.Models\bin\Debug\netcoreapp3.0\ClosrBackend.Models.deps.json
+C:\Users\JPLBU12\Documents\Hackathon\ClosrBackend\ClosrBackend\ClosrBackend.Models\bin\Debug\netcoreapp3.0\ClosrBackend.Models.dll
+C:\Users\JPLBU12\Documents\Hackathon\ClosrBackend\ClosrBackend\ClosrBackend.Models\obj\Debug\netcoreapp3.0\ClosrBackend.Models.csprojAssemblyReference.cache
+C:\Users\JPLBU12\Documents\Hackathon\ClosrBackend\ClosrBackend\ClosrBackend.Models\obj\Debug\netcoreapp3.0\ClosrBackend.Models.AssemblyInfoInputs.cache
+C:\Users\JPLBU12\Documents\Hackathon\ClosrBackend\ClosrBackend\ClosrBackend.Models\obj\Debug\netcoreapp3.0\ClosrBackend.Models.AssemblyInfo.cs
+C:\Users\JPLBU12\Documents\Hackathon\ClosrBackend\ClosrBackend\ClosrBackend.Models\bin\Debug\netcoreapp3.0\ClosrBackend.Models.pdb
+C:\Users\JPLBU12\Documents\Hackathon\ClosrBackend\ClosrBackend\ClosrBackend.Models\obj\Debug\netcoreapp3.0\ClosrBackend.Models.dll
+C:\Users\JPLBU12\Documents\Hackathon\ClosrBackend\ClosrBackend\ClosrBackend.Models\obj\Debug\netcoreapp3.0\ClosrBackend.Models.pdb
