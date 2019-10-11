@@ -5,11 +5,13 @@ using System.Text;
 
 namespace ClosrBackend.Models.Models
 {
-    public class Customer
+   public class Product
     {
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }
-        public List<Order> Order{ get; set; }
+        public double Price { get; set; }
+        public string imgUrl { get; set; }
+        public string Description { get; set; }
     }
 }
