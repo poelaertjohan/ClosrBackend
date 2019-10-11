@@ -4799,23 +4799,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JOOBU08\\.nuget\\packages\\": {},
+    "C:\\Users\\JPLBU12\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JOOBU08\\Documents\\ClosrBackend\\ClosrBackend\\ClosrBackend.Models\\ClosrBackend.Models.csproj",
+      "projectUniqueName": "C:\\Users\\JPLBU12\\Documents\\Hackathon\\ClosrBackend\\ClosrBackend\\ClosrBackend.Models\\ClosrBackend.Models.csproj",
       "projectName": "ClosrBackend.Models",
-      "projectPath": "C:\\Users\\JOOBU08\\Documents\\ClosrBackend\\ClosrBackend\\ClosrBackend.Models\\ClosrBackend.Models.csproj",
-      "packagesPath": "C:\\Users\\JOOBU08\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JOOBU08\\Documents\\ClosrBackend\\ClosrBackend\\ClosrBackend.Models\\obj\\",
+      "projectPath": "C:\\Users\\JPLBU12\\Documents\\Hackathon\\ClosrBackend\\ClosrBackend\\ClosrBackend.Models\\ClosrBackend.Models.csproj",
+      "packagesPath": "C:\\Users\\JPLBU12\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JPLBU12\\Documents\\Hackathon\\ClosrBackend\\ClosrBackend\\ClosrBackend.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\JOOBU08\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JPLBU12\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

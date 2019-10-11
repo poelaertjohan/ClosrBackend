@@ -34,6 +34,8 @@ namespace ClosrBackend
         {
             services.AddDbContext<ClosrContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("ClosR")));
+
+            services.AddAuthorization();
         }
 
         public IConfiguration Configuration { get; }
@@ -55,7 +57,6 @@ namespace ClosrBackend
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
             });
         }
     }
