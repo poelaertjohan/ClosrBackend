@@ -35,8 +35,10 @@ namespace ClosrBackend
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
             });
-            services.AddMvcCore()
-        .AddApiExplorer();
+
+            services.AddControllers();
+        //    services.AddMvcCore()
+        //.AddApiExplorer();
 
         }
 
@@ -71,6 +73,7 @@ namespace ClosrBackend
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllers();
             });
         }
     }
