@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ClosrBackend.Context;
+using ClosrBackend.Models.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,18 +13,19 @@ namespace ClosrBackend.Controllers
     [ApiController]
     public class CustomerController : ControllerBase
     {
-        private ClosrContext ctx { get; set; }
+        private ClosrContext _ctx { get; set; }
 
-        public CustomerController(ClosrContext _ctx)
+        public CustomerController(ClosrContext ctx)
         {
-            
+            _ctx = ctx;
         }
 
         // GET: api/Customer
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Customer> Get()
         {
-            return new string[] { "value1", "value2" };
+
+            return _ctx.Customers.ToList();
         }
 
         // GET: api/Customer/5
