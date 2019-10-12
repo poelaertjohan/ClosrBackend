@@ -21,26 +21,24 @@ namespace ClosrBackend.Controllers
 
         // GET: api/Customer
         [HttpGet]
-        public string GetAll()
-        //public IEnumerable<Customer> Get()
+        public IEnumerable<Customer> GetAll()
         {
-
-            return "df";
-            //return _ctx.Customers.ToList();
+            return _ctx.Customers.ToList();
         }
 
         // GET: api/Customer/5
         [HttpGet]
         [Route("{id}")]
-        public string Get(int id)
+        public Customer Get(int id)
         {
-            return "value";
+            return _ctx.Customers.Where(c => c.Id == id).FirstOrDefault();
         }
 
         // POST: api/Customer
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Customer value)
         {
+            _ctx.Add(value);
         }
 
         // PUT: api/Customer/5
@@ -53,8 +51,9 @@ namespace ClosrBackend.Controllers
         // DELETE: api/ApiWithActions/5
         [HttpDelete]
         [Route("{id}")]
-        public void Delete(int id)
+        public void Delete(Customer c)
         {
+            _ctx.Remove(c);
         }
     }
 }
