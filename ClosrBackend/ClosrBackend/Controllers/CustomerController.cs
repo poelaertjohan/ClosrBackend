@@ -10,8 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace ClosrBackend.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
-    public class CustomerController : ControllerBase
+    public class CustomerController : Controller
     {
         private ClosrContext _ctx { get; set; }
 
@@ -22,14 +21,17 @@ namespace ClosrBackend.Controllers
 
         // GET: api/Customer
         [HttpGet]
-        public IEnumerable<Customer> Get()
+        public string GetAll()
+        //public IEnumerable<Customer> Get()
         {
 
-            return _ctx.Customers.ToList();
+            return "df";
+            //return _ctx.Customers.ToList();
         }
 
         // GET: api/Customer/5
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet]
+        [Route("{id}")]
         public string Get(int id)
         {
             return "value";
@@ -42,13 +44,15 @@ namespace ClosrBackend.Controllers
         }
 
         // PUT: api/Customer/5
-        [HttpPut("{id}")]
+        [HttpPut]
+        [Route("{id}")]
         public void Put(int id, [FromBody] string value)
         {
         }
 
         // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
+        [HttpDelete]
+        [Route("{id}")]
         public void Delete(int id)
         {
         }
